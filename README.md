@@ -1,2 +1,3 @@
-# node_start_up
-A project to get started with node
+# Node tours application
+
+Built using modern technologies: node.js, express, mongoDB, mongoose.
