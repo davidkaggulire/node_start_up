@@ -17,4 +17,4 @@ After, run ```npm start``` to run the project on your development server or work
 ### Author
 Built by David Kaggulire.
 
-Credit goes to Jonas Scheditmann for the design and walk through.
+Credit goes to  Jonas Schmedtmann  for the design and walk through.
