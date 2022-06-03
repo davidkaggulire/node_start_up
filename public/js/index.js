@@ -1,8 +1,10 @@
-// import "@babel/polyfill";
-// import { login } from './login';
+// import "core-js/stable";
+// const babel = require("core-js/stable");
+// import { logout } from './login';
 
 // DOM ELEMENTS
 const mapBox = document.getElementById('map');
+// const logOutBtn = document.querySelector('.nav__el--logout');
 
 // VALUES
 
@@ -10,6 +12,8 @@ const mapBox = document.getElementById('map');
 if (mapBox) {
   const locations = JSON.parse(mapBox.dataset.locations);
 }
+
+// if(logOutBtn) logOutBtn.addEventListener('click', logout);
 
 // document.querySelector('.form').addEventListener('submit', (e) => {
 //   e.preventDefault();

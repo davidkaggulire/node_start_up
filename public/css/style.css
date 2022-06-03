@@ -158,6 +158,12 @@ body {
   font-size: 3.5rem;
 }
 
+@media only screen and (max-width: 27.5em) {
+  .heading-secondary {
+    font-size: 2.25rem;
+  }
+}
+
 .heading-primary,
 .heading-tertirary {
   color: #fff;
@@ -958,6 +964,14 @@ body {
 .nav__el:not(:last-child) {
   margin-right: 3rem;
 }
+
+@media only screen and (max-width: 50em) {
+  #logout{
+    width: 8.5rem;
+  }
+}
+
+
 @media only screen and (max-width: 37.5em) {
   .nav__el:not(:last-child) {
     margin-right: 2rem;
@@ -1314,6 +1328,44 @@ body {
   padding: 5rem 7rem;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 27.5em) {
+  .login-form{
+    padding: 2.7rem 1.5rem;
+  }
+}
+
+
+.signup-form {
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
+  padding: 5rem 7rem;
+  border-radius: 5px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .signup-form{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .signup-form{
+    width: 90%;
+    padding: 2.7rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 27.5em) {
+  .signup-form{
+    padding: 2.7rem 1.5rem;
+  }
+}
+
+
 
 .form__input {
   display: block;

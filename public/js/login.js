@@ -55,7 +55,9 @@ const logout = async () => {
   }
 };
 
-const logoutForm = document.getElementById('logout');
+const logoutForm = document.querySelector('.nav__el--logout');
+
+// const logoutForm = document.getElementById('logout');
 if (logoutForm) {
   logoutForm.addEventListener('click', () => {
     console.log('hello');
